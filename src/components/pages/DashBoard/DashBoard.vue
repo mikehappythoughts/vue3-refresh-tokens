@@ -6,8 +6,8 @@
 <template>
   <header class="">
     <h3><strong>Dasboard</strong> {{ user.username }}</h3>
-    <button @click="logout">logout</button>
-    <button @click="getEmployees">get employees</button>
+    <button class="btn mr-4" @click="logout">logout</button>
+    <button class="btn" @click="getEmployees">get employees</button>
   </header>
   <main>
     <section></section>
