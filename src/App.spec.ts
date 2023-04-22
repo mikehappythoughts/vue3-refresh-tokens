@@ -14,6 +14,14 @@ const mockedUseAuthUserStore = useAuthUserStore as unknown as Mock
 
 describe('App.vue', () => {
   test('should redirect to /login when logout event is triggered', async () => {
+    const mockLogout = vi.fn()
+
+    mockedUseAuthUserStore.mockImplementation(() => ({
+      logout: mockLogout
+    }))
+
+    const removeEventListenerSpy = vi.spyOn(window, 'removeEventListener')
+
     const wrapper = mount(App, {
       global: {
         stubs: ['RouterView']
@@ -29,6 +37,7 @@ describe('App.vue', () => {
     // wait for next tick to allow router to navigate
     await wrapper.vm.$nextTick()
 
-    expect(mockedUseAuthUserStore).toHaveBeenCalledOnce()
+    expect(removeEventListenerSpy).toHaveBeenCalledOnce()
+    expect(mockLogout).toHaveBeenCalledOnce()
   })
 })
