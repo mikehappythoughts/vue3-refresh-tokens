@@ -11,6 +11,7 @@ Vue 3 composition api, Formkit, Typescript, Tailwind, Express for the backend, V
 ## Documentation
 
 For detailed explanation on the tech stack check below:
+
 - Vue 3, check out the [documentation](https://vuejs.org/).
 - Vite, check out the [documentation](https://vitejs.dev/).
 - Formkit, check out the [documentation](https://formkit.com/).
@@ -22,7 +23,7 @@ For detailed explanation on the tech stack check below:
 ## Getting Started
 
 Please note rename the .env.example to .env
-Inside the .env file you will see this **VITE_API_URL =''** enter the server url in between the single quotes this will allow the app to work with the server. To build this app I used an express server by Dave Gray see all his great work here: https://github.com/gitdagray. And to use the same server I used by Dave Gray you can find it here: https://github.com/gitdagray/express_jwt. But you can adapt it to use any backend you want.
+Inside the .env file you will see this **VITE_API_URL =''** enter the server url in between the single quotes this will allow the app to work with the server. To build this app I used an express server by Dave Gray see all his great work here: https://github.com/gitdagray. And to use the same server I used by Dave Gray you can find it here: https://github.com/gitdagray/express_jwt. It send a JWT using HTTP cookies and stores your users. There is also a employee endpoint which i use to test if the access token has expired so I can see it in dev tools. When you click the get employees button you will see the value in the dev tools console tab. But you can adapt it to use any backend you want.
 
 ```bash
 # install dependencies
