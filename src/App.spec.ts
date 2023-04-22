@@ -13,7 +13,7 @@ vi.mock('@/stores/auth/useAuthUserStore', () => ({
 const mockedUseAuthUserStore = useAuthUserStore as unknown as Mock
 
 describe('App.vue', () => {
-  test('should redirect to /login when logout event is triggered', async () => {
+  test('should logout when logout event is triggered', async () => {
     const mockLogout = vi.fn()
 
     mockedUseAuthUserStore.mockImplementation(() => ({
