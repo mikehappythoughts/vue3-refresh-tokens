@@ -11,13 +11,13 @@ Vue 3 composition api, Formkit, Typescript, Tailwind, Express for the backend, V
 ## Documentation
 
 For detailed explanation on the tech stack check below:
-Vue 3, check out the [documentation](https://vuejs.org/).
-Vite, check out the [documentation](https://vitejs.dev/).
-Formkit, check out the [documentation](https://formkit.com/).
-Tailwind, check out the [documentation](https://tailwindcss.com/).
-Typescript, check out the [documentation](https://www.typescriptlang.org/).
-Vue test utils, check out the [documentation](https://test-utils.vuejs.org/).
-Express, check out the [documentation](https://expressjs.com/).
+- Vue 3, check out the [documentation](https://vuejs.org/).
+- Vite, check out the [documentation](https://vitejs.dev/).
+- Formkit, check out the [documentation](https://formkit.com/).
+- Tailwind, check out the [documentation](https://tailwindcss.com/).
+- Typescript, check out the [documentation](https://www.typescriptlang.org/).
+- Vue test utils, check out the [documentation](https://test-utils.vuejs.org/).
+- Express, check out the [documentation](https://expressjs.com/).
 
 ## Getting Started
 
