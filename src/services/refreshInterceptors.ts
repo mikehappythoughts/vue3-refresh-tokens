@@ -52,12 +52,12 @@ const setUpRefreshTokenInterceptor = (): void => {
         } catch (error: unknown) {
           // logout the user and redirect to login page
           logout()
-
           return Promise.reject(error)
         } finally {
           isRefreshingToken = false
         }
       }
+
       // logout the user and redirect to login page
       logout()
       return Promise.reject(error)
