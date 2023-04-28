@@ -2,7 +2,7 @@
 
 ## Description
 
-The in memory refresh token demonstrates one way to refresh your access token using Axios interceptors. This also includes unit test using Vue test utils.
+The in memory refresh token demonstrates one way to refresh your access token using Axios interceptors and an Express server. This also includes unit test using Vue test utils.
 
 ## Tech Stack
 
